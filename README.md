@@ -1,20 +1,25 @@
-## 时差计算器
+# OpenJetLag Calculator 🌐✈️
+Welcome to the GitHub repository for the OpenJetLag Calculator, a community project dedicated to helping travelers adjust to new time zones with ease and educating more about sleep.
 
-### 原型地址
+## About the Project 📘
+The OpenJetLag Calculator is designed to calculate your lowest core body temperature based on your sleep and wake times. By inputting your origin and destination, the calculator provides personalized recommendations to help you adjust. These recommendations include:
 
-https://lanhuapp.com/web/#/item/project/stage?tid=82c9bf8f-8c0c-4d48-8f5a-b36d3ad7b7d7&pid=f88e2bfd-ba7e-4c6b-83d5-11ff38082673
+- A light exposure schedule tailored to your travel 🌞🌛.
+- Tips on meals,drinks and other daily activities to align with your new time zone 🍽️.
+- Additional guidance to manage jet lag effectively 🕒.
 
-### UI 组件
+## How to Use 🚀
+To get started with the OpenJetLag Calculator:
 
-https://element-plus.gitee.io/zh-CN/component/button.html
+- Clone this repository to your local machine.
+- Open local files with your terminal and install necessary dependencies.
+- Run the application with the command npm run dev and click the link that pops up.
+- Enter your sleep schedule and travel details as prompted.
 
-### 参考
+Thank you for visiting the OpenJetLag Calculator repository! We hope this tool makes your travels more comfortable and adaptable to new time zones.
 
-https://www.gatewaypsychiatric.com/sleep-junkie-jet-lag-calculator/
 
-https://www.hillarys.co.uk/static/jet-lag-calculator/
-
-### 接口
+### API
 
 https://maps.googleapis.com/maps/api/place/autocomplete/json?input=Vict&language=pt_BR&fields=geometry&types=%28cities%29&key=AIzaSyDfLGBgjMGYMfL4YuzgGCNztBHbniJlQ1A
 
