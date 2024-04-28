@@ -1,0 +1,118 @@
+.page {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: url("@/assets/img/bg.png") no-repeat;
+  background-size: 100% 100%;
+
+  > div {
+    width: 160rem;
+    height: 81rem;
+    overflow: hidden;
+    padding: 5rem 7rem 0 80rem;
+    background: url("@/assets/img/bg2.png") no-repeat;
+    background-size: 100% 100%;
+
+    > h2 {
+      height: 13rem;
+      overflow: hidden;
+      color: #060606;
+      line-height: 1.3;
+    }
+
+    > h3 {
+      height: 5rem;
+      overflow: hidden;
+      padding: 1rem 0 0 0;
+    }
+
+    > div {
+      height: calc(100% - 33rem);
+      overflow: hidden;
+      padding: 3rem 0 0 0;
+      direction: ltr;
+
+      > ul {
+        height: 100%;
+        overflow: hidden;
+        overflow-y: auto;
+        direction: rtl;
+
+        > li {
+          overflow: hidden;
+          padding: 0 5rem 3rem 7rem;
+          text-align: left;
+          direction: ltr;
+
+          > h2 {
+            overflow: hidden;
+          }
+
+          > div {
+            overflow: hidden;
+            padding: 1rem 1rem 0 0;
+
+            > span {
+              overflow: hidden;
+              padding: 0 0 0 2rem;
+            }
+          }
+        }
+
+        > h2 {
+          overflow: hidden;
+          padding: 3rem 5rem 0 7rem;
+          text-align: left;
+          line-height: 1.5;
+          direction: ltr;
+
+          > img {
+            width: 5rem;
+            overflow: hidden;
+          }
+
+          > b {
+            width: 100%;
+            overflow: hidden;
+            padding: 1rem 0 0 0;
+          }
+
+          > span {
+            width: 100%;
+            overflow: hidden;
+            padding: 1rem 0 0 0;
+          }
+        }
+      }
+    }
+
+    > ol {
+      width: 100%;
+      overflow: hidden;
+      padding: 3rem 0 0 0;
+
+      > li {
+        width: 16rem;
+        height: 6rem;
+        overflow: hidden;
+        background-color: #035bbf;
+        border-radius: 2rem 0 2rem 0;
+
+        &:hover {
+          border-radius: 2rem;
+        }
+      }
+    }
+  }
+
+  > span {
+    overflow: hidden;
+    padding: 1rem 3rem 0 3rem;
+    text-align: center;
+
+    > span {
+      overflow: hidden;
+      padding: 1rem 0 0 0;
+    }
+  }
+}

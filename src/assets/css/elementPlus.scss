@@ -1,0 +1,14 @@
+// 时间选择器
+.el-date-editor .el-input__wrapper {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+// 时间选择器 弹出层
+.timePickerDiv .el-time-spinner.has-seconds .el-time-spinner__wrapper {
+  width: 50%;
+
+  &:last-child {
+    display: none;
+  }
+}

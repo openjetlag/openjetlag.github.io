@@ -1,0 +1,62 @@
+:root {
+  --vw: 100vw;
+  --rootW: 10;
+}
+
+html {
+  font-size: 10px;
+}
+
+@media screen and (max-width: 1920px) {
+  html {
+    font-size: calc(var(--vw) / 1920 * var(--rootW));
+  }
+}
+
+/* @media screen and (max-width: 1680px) {
+  html {
+    font-size: calc(var(--vw) / 1680 * var(--rootW));
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  html {
+    font-size: calc(var(--vw) / 1440 * var(--rootW));
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  html {
+    font-size: calc(var(--vw) / 1280 * var(--rootW));
+  }
+}
+
+@media screen and (max-width: 980px) {
+  html {
+    font-size: calc(var(--vw) / 980 * var(--rootW));
+  }
+}
+
+@media screen and (max-width: 750px) {
+  html {
+    font-size: calc(var(--vw) / 750 * var(--rootW));
+  }
+}
+
+@media screen and (max-width: 640px) {
+  html {
+    font-size: calc(var(--vw) / 640 * var(--rootW));
+  }
+}
+
+@media screen and (max-width: 414px) {
+  html {
+    font-size: calc(var(--vw) / 414 * var(--rootW));
+  }
+}
+
+@media screen and (max-width: 375px) {
+  html {
+    font-size: calc(var(--vw) / 375 * var(--rootW));
+  }
+} */

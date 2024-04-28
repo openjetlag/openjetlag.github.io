@@ -1,0 +1,120 @@
+.home {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: url("@/assets/img/bg.png") no-repeat;
+  background-size: 100% 100%;
+
+  > div {
+    width: 160rem;
+    height: 81rem;
+    overflow: hidden;
+    padding: 3rem 7rem 0 0;
+    background: url("@/assets/img/bg1.png") no-repeat;
+    background-size: 100% 100%;
+
+    > h2 {
+      width: 100%;
+      overflow: hidden;
+      padding: 0 0 1rem 7rem;
+      color: #1164d4;
+      text-align: center;
+    }
+
+    > p {
+      overflow: hidden;
+      padding: 2rem 0 0 80rem;
+      line-height: 1.5;
+    }
+
+    > div {
+      width: calc(100% - 80rem);
+      overflow: hidden;
+      padding: 2.5rem 0;
+      margin: 0 0 0 80rem;
+      border-bottom: 1px solid #e0e0e0;
+
+      ::v-deep(.el-date-editor) {
+        width: 15rem;
+        font-size: 2rem;
+        color: #3f3f3f;
+      }
+    }
+
+    > ul {
+      width: 100%;
+      overflow: hidden;
+      padding: 3rem 0 0 80rem;
+
+      > li {
+        width: calc((100% - 5rem) / 2 - 1px);
+        overflow: hidden;
+
+        &:first-child {
+          margin: 0 5rem 0 0;
+        }
+
+        > h2 {
+          overflow: hidden;
+          padding: 0 0 2rem 0.5rem;
+        }
+
+        > input {
+          width: 100%;
+          overflow: hidden;
+          padding: 1rem 0.5rem;
+          font-size: 2rem;
+          border-bottom: 1px solid #d1d1d1;
+        }
+
+        > span {
+          overflow: hidden;
+          padding: 2rem 0 0 0;
+
+          ::v-deep(.el-date-editor) {
+            width: 100%;
+            font-size: 2rem;
+            color: #3f3f3f;
+
+            &:first-child {
+              margin: 0 3rem 0 0;
+            }
+
+            .el-input__wrapper {
+              border-bottom: 1px solid #d1d1d1;
+            }
+          }
+        }
+      }
+    }
+
+    > ol {
+      width: 100%;
+      overflow: hidden;
+      padding: 5rem 0 0 80rem;
+
+      > li {
+        width: 16rem;
+        height: 6rem;
+        overflow: hidden;
+        background-color: #035bbf;
+        border-radius: 2rem 0 2rem 0;
+
+        &:hover {
+          border-radius: 2rem;
+        }
+      }
+    }
+  }
+
+  > span {
+    overflow: hidden;
+    padding: 1rem 3rem 0 3rem;
+    text-align: center;
+
+    > span {
+      overflow: hidden;
+      padding: 1rem 0 0 0;
+    }
+  }
+}
